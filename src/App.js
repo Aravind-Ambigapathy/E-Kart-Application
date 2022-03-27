@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Bottomend from './components/Bottomend';
+import Bottommain from './components/Bottommain';
+import EndingMain from './components/EndingMain';
+import Navbar from './components/Navbar';
+import Secondmain from './components/Secondmain';
+import Topmain from './components/Topmain';
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar/><br/><br/><br/><br/><br/>
+      <Topmain />
+      <Secondmain />
+      <EndingMain />
+      <Bottommain />
+      <Bottomend />
+     
     </div>
   );
 }

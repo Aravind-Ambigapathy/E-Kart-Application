@@ -1,0 +1,16 @@
+.modecontent {
+  display: inline-block;
+  margin-right: 30px;
+}
+.modecontent p{
+  margin: 0px;
+}
+Model{
+  width: 800px;
+}
+.studio p button{
+  background-color: white;
+  padding: 10px;
+  border: 1px solid rgb(202, 153, 153);
+
+}

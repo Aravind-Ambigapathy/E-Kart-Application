@@ -1,38 +1,144 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbarf{
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.topmain1{
+  
 }
+.navbarmain li{
+  padding: 10px 17px 28px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #282c3f;
+    -webkit-transition: left .2s ease-out,width .2s ease-out;
+    transition: left .2s ease-out,width .2s ease-out;
+    font-weight: 700;
+}
+.navbarsub li{
+  padding: 0px 0px 20px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #282c3f;
+  -webkit-transition: left .2s ease-out,width .2s ease-out;
+  transition: left .2s ease-out,width .2s ease-out;
+  font-weight: 500;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.dropbtn {
+  background-color: #04AA6D;
   color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  width: max-content;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.navbarsub{
+  margin-left: 0px;
+  margin-right: 20px;
+}
+.navicons{
+  font-size: large;
+  margin-bottom: -3px;
+}
+.searchbar1{
+  margin-bottom: 20px;
+}
+.viewall{
+  height:40px;
+  font-size: x-large;
+  font-weight: 650;
+  border: none;
+  background-color: rgb(223, 154, 105);
+}
+.bottomshop{
+  text-decoration: none;
+  margin-top: 30px;
+  margin-left: 5%;
+  font-size: 14px;
+  display: inline-block;
+}
+.bottomshop p{
+  margin-bottom: 0px;
+  opacity: 80%;
+}
+.bottomshop h6{
+  margin-bottom: 20px;
+}
+.bottomcon{
+  padding-bottom: 50px;
+  margin-left: 10%;
+  font-size: 14px;
+  display: inline-block;
+  text-decoration: none;
+}
+.bottomcon p{
+  opacity: 80%;
+  margin-bottom: 0px;
+}
+.bottomcon p a,.bottomshop p a{
+  text-decoration: none;
+  color: #282c3f;
+}
+.bottomcon h6{
+  margin-bottom: 20px;
+}
+.contactus a{
+  padding-right: 20px;
+  opacity: 80%;
+  font-size: 25px;
+  color: #282c3f;
+}
+.bottomin{
+  margin-left: 10%;
+  display: inline-block;
+}
+.bottomin h6{
+  margin-bottom: 20px;
+}
+.bottomin a{
+  padding-bottom: 5px;
+}
+.bottomin1{
+  margin-left: 10%;
+  display: inline-block;
+}
+.bottomin1 p{
+  padding: 15px;
 }
