@@ -62,7 +62,7 @@ function Navbar() {
                 <div className='navbarf' >
                     <nav className="navbar navbar-expand-lg navbar-light ">
                         <div className="container-fluid">
-                            <Link className="" ><img src='https://aartisto.com/wp-content/uploads/2020/11/myntra-1200x675.png'
+                            <Link className="" ><img src=''
                                 height='30px' /></Link>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
